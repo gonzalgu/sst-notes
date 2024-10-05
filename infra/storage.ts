@@ -1,3 +1,4 @@
+export const secret = new sst.Secret("StripeSecretKey");
 export const bucket = new sst.aws.Bucket("Uploads");
 
 //create a dynamodb table
